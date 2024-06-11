@@ -1,0 +1,447 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
+      "projectApiToken": "DIkcfhBwjMCJSjcxfBkMuy4NImyytq5EWylxVcpS9t9EpdhnPQuBgBGxmk00AB1itMFa1KXTxOKnrjN2PN9nlA",
+      "projectName": "react-awesome-reveal",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_awesome_reveal/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "R6s1FdhksG",
+          "name": "Reveal",
+          "displayName": "hostless-reveal",
+          "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "hjKYmYi6HMwK6TRyk7ew5R",
+      "projectApiToken": "L5kqyh9xqKCqpdc8gqCglVcLZTxdkkP1Dt9pLUlWpyKVItIbbXr5272ePgMpZZiezhSe0AIOuQB353jQnw",
+      "projectName": "plasmic-cms",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/plasmic_cms/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/plasmic_cms/PlasmicGlobalContextsProvider.tsx",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "w6HdOz-Pcn",
+          "name": "CmsRowField",
+          "displayName": "hostless-plasmic-cms-row-field",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "Ds6UdKRHmq",
+          "name": "CmsRowLink",
+          "displayName": "hostless-plasmic-cms-row-link",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "dj_Vc2QmFA",
+          "name": "CmsRowImage",
+          "displayName": "hostless-plasmic-cms-row-image",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "r3UO4W-xcR",
+          "name": "CmsRowFieldValue",
+          "displayName": "hostless-plasmic-cms-row-value",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "OREVbGCcgN",
+          "name": "CmsCredentialsProvider",
+          "displayName": "hostless-plasmic-cms-credentials-provider",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "8N9-WfZSaq",
+          "name": "CmsQueryRepeater",
+          "displayName": "hostless-plasmic-cms-query-repeater",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "8uEaibqi6348",
+          "name": "CmsCount",
+          "displayName": "hostless-plasmic-cms-count",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "r3ASNrnyvLLLAtDvzUioQ",
+      "projectApiToken": "eSFGpQaYCtO9sRbPuQ2Ll9dmLOg8I4oKhx6e1PuCrsfmUIVbFbSXcy32UrPTwF9zX2HVXA0xaIKJNhCMHvA",
+      "projectName": "react-slick",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_slick/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "HOQUyOpClJ",
+          "name": "SliderWrapper",
+          "displayName": "hostless-slider",
+          "componentImportPath": "@plasmicpkgs/react-slick",
+          "helper": {
+            "name": "sliderHelpers",
+            "importPath": "@plasmicpkgs/react-slick"
+          }
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "wtHXqYo4cHDw1QkkqeK42j",
+      "projectApiToken": "bzNBDDw5bGXi2x6OfswDhV3V7CSCucN7OB4v37mOnqpLkKCKK9SBtoyKreP5pIThFPFtgwy2K9fvzEmh6MWhw",
+      "projectName": "Apple",
+      "version": "latest",
+      "cssFilePath": "plasmic/apple/plasmic.module.css",
+      "components": [
+        {
+          "id": "QoBcfJh8GAlD",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "wtHXqYo4cHDw1QkkqeK42j",
+          "renderModuleFilePath": "plasmic/apple/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/apple/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "ekPcpL73g9lH",
+          "name": "NavItem",
+          "type": "managed",
+          "projectId": "wtHXqYo4cHDw1QkkqeK42j",
+          "renderModuleFilePath": "plasmic/apple/PlasmicNavItem.tsx",
+          "importSpec": {
+            "modulePath": "NavItem.tsx"
+          },
+          "cssFilePath": "plasmic/apple/PlasmicNavItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "3cOksGmh6ZLL",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "wtHXqYo4cHDw1QkkqeK42j",
+          "renderModuleFilePath": "plasmic/apple/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/apple/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ZbjC4NyGb7H3",
+          "name": "Abc",
+          "type": "managed",
+          "projectId": "wtHXqYo4cHDw1QkkqeK42j",
+          "renderModuleFilePath": "plasmic/apple/PlasmicAbc.tsx",
+          "importSpec": {
+            "modulePath": "Abc.tsx"
+          },
+          "cssFilePath": "plasmic/apple/PlasmicAbc.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "3-SuxyB_th-Q",
+          "name": "ProductDisplay",
+          "type": "managed",
+          "projectId": "wtHXqYo4cHDw1QkkqeK42j",
+          "renderModuleFilePath": "plasmic/apple/PlasmicProductDisplay.tsx",
+          "importSpec": {
+            "modulePath": "ProductDisplay.tsx"
+          },
+          "cssFilePath": "plasmic/apple/PlasmicProductDisplay.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "LrmatnizYfwG",
+          "name": "TvPlusGalleryItem",
+          "type": "managed",
+          "projectId": "wtHXqYo4cHDw1QkkqeK42j",
+          "renderModuleFilePath": "plasmic/apple/PlasmicTvPlusGalleryItem.tsx",
+          "importSpec": {
+            "modulePath": "TvPlusGalleryItem.tsx"
+          },
+          "cssFilePath": "plasmic/apple/PlasmicTvPlusGalleryItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "RBWJ0uo_AlcZ",
+          "name": "FooterLinksGroup",
+          "type": "managed",
+          "projectId": "wtHXqYo4cHDw1QkkqeK42j",
+          "renderModuleFilePath": "plasmic/apple/PlasmicFooterLinksGroup.tsx",
+          "importSpec": {
+            "modulePath": "FooterLinksGroup.tsx"
+          },
+          "cssFilePath": "plasmic/apple/PlasmicFooterLinksGroup.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "A3mK7fgxYkXc",
+          "name": "FooterLink",
+          "type": "managed",
+          "projectId": "wtHXqYo4cHDw1QkkqeK42j",
+          "renderModuleFilePath": "plasmic/apple/PlasmicFooterLink.tsx",
+          "importSpec": {
+            "modulePath": "FooterLink.tsx"
+          },
+          "cssFilePath": "plasmic/apple/PlasmicFooterLink.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "OwSLeRN_L328",
+          "name": "FooterLinksGroupMobile",
+          "type": "managed",
+          "projectId": "wtHXqYo4cHDw1QkkqeK42j",
+          "renderModuleFilePath": "plasmic/apple/PlasmicFooterLinksGroupMobile.tsx",
+          "importSpec": {
+            "modulePath": "FooterLinksGroupMobile.tsx"
+          },
+          "cssFilePath": "plasmic/apple/PlasmicFooterLinksGroupMobile.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "haA0hbHhqrE8",
+          "name": "AnimatingCross",
+          "type": "managed",
+          "projectId": "wtHXqYo4cHDw1QkkqeK42j",
+          "renderModuleFilePath": "plasmic/apple/PlasmicAnimatingCross.tsx",
+          "importSpec": {
+            "modulePath": "AnimatingCross.tsx"
+          },
+          "cssFilePath": "plasmic/apple/PlasmicAnimatingCross.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Tnt9_t3KZtJk",
+          "name": "NavItemDetails",
+          "type": "managed",
+          "projectId": "wtHXqYo4cHDw1QkkqeK42j",
+          "renderModuleFilePath": "plasmic/apple/PlasmicNavItemDetails.tsx",
+          "importSpec": {
+            "modulePath": "NavItemDetails.tsx"
+          },
+          "cssFilePath": "plasmic/apple/PlasmicNavItemDetails.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "sreT60sA2AHI",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/apple/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "p2H8aVA_VHuO",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/apple/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "b0UBZjtJZskW",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/apple/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "29edvlenBJqy",
+          "name": "BaselineApplesvgIcon",
+          "moduleFilePath": "plasmic/apple/icons/PlasmicIcon__BaselineApplesvg.tsx"
+        },
+        {
+          "id": "fxLwowbfOprJ",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/apple/icons/PlasmicIcon__Icon4.tsx"
+        },
+        {
+          "id": "oF6-ExsNMUdy",
+          "name": "Icon5Icon",
+          "moduleFilePath": "plasmic/apple/icons/PlasmicIcon__Icon5.tsx"
+        },
+        {
+          "id": "P3d05hsDJnpY",
+          "name": "Icon6Icon",
+          "moduleFilePath": "plasmic/apple/icons/PlasmicIcon__Icon6.tsx"
+        },
+        {
+          "id": "sgJOp8ZV-Kt9",
+          "name": "Icon7Icon",
+          "moduleFilePath": "plasmic/apple/icons/PlasmicIcon__Icon7.tsx"
+        },
+        {
+          "id": "5wiAt1RUsVKA",
+          "name": "Icon8Icon",
+          "moduleFilePath": "plasmic/apple/icons/PlasmicIcon__Icon8.tsx"
+        },
+        {
+          "id": "YKeKWGX42D-B",
+          "name": "Icon9Icon",
+          "moduleFilePath": "plasmic/apple/icons/PlasmicIcon__Icon9.tsx"
+        },
+        {
+          "id": "LPaptpw6kk-m",
+          "name": "Icon10Icon",
+          "moduleFilePath": "plasmic/apple/icons/PlasmicIcon__Icon10.tsx"
+        },
+        {
+          "id": "oKZrHbfQNBXk",
+          "name": "Icon11Icon",
+          "moduleFilePath": "plasmic/apple/icons/PlasmicIcon__Icon11.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "TsV4ybQw1_2U",
+          "name": "hero_macbook_air_15_midnight__ct0pgwizvree_mediumtall_2x.jpg",
+          "filePath": "../public/plasmic/apple/images/heroMacbookAir15MidnightCt0PgwizvreeMediumtall2Xjpg.jpg"
+        },
+        {
+          "id": "CtK5V3AfQ3lS",
+          "name": "hero_iphone14pro_spring__9xo85pm6sbmm_mediumtall_2x.jpg",
+          "filePath": "../public/plasmic/apple/images/heroIphone14ProSpring9Xo85Pm6SbmmMediumtall2Xjpg.jpg"
+        },
+        {
+          "id": "HBVuq2qbLEEQ",
+          "name": "hero_iphone14_yellow__eun20sn4imi6_mediumtall_2x.jpg",
+          "filePath": "../public/plasmic/apple/images/heroIphone14YellowEun20Sn4Imi6Mediumtall2Xjpg.jpg"
+        },
+        {
+          "id": "5ZxxNWdpP-bS",
+          "name": "hero_iphone14pro_spring__9xo85pm6sbmm_largetall_2x.jpg",
+          "filePath": "../public/plasmic/apple/images/heroIphone14ProSpring9Xo85Pm6SbmmLargetall2Xjpg.jpg"
+        },
+        {
+          "id": "dg06saKAhAGA",
+          "name": "promo_bts2023_startframe__exvt2t1iuxme_large_2x.jpg",
+          "filePath": "../public/plasmic/apple/images/promoBts2023StartframeExvt2T1IuxmeLarge2Xjpg.jpg"
+        },
+        {
+          "id": "yO9PrWh8P12k",
+          "name": "promo_apple_watch_series_8_spring__d9hfvufh7hyu_large_2x.jpg",
+          "filePath": "../public/plasmic/apple/images/promoAppleWatchSeries8SpringD9Hfvufh7HyuLarge2Xjpg.jpg"
+        },
+        {
+          "id": "MHhLIbzPNol1",
+          "name": "promo_apple_vision_pro__f4v4zp0sum2y_large_2x.jpg",
+          "filePath": "../public/plasmic/apple/images/promoAppleVisionProF4V4Zp0Sum2YLarge2Xjpg.jpg"
+        },
+        {
+          "id": "0-FoNxx2dqiO",
+          "name": "iphone_tradein_promo__d5au3rkw5kuq_large_2x.jpg",
+          "filePath": "../public/plasmic/apple/images/iphoneTradeinPromoD5Au3Rkw5KuqLarge2Xjpg.jpg"
+        },
+        {
+          "id": "ZrKMdH9cPDlL",
+          "name": "promo_apple_news_womens_world_cup__f72j3grkhguq_large_2x.jpg",
+          "filePath": "../public/plasmic/apple/images/promoAppleNewsWomensWorldCupF72J3GrkhguqLarge2Xjpg.jpg"
+        },
+        {
+          "id": "ydgZcJhfVMRq",
+          "name": "tile__cauwwcyyn9hy_large_2x (1).jpg",
+          "filePath": "../public/plasmic/apple/images/tileCauwwcyyn9HyLarge2X1Jpg.jpg"
+        },
+        {
+          "id": "y-VFCsdA9M2J",
+          "name": "hero_macbook_air_15_midnight__ct0pgwizvree_small.jpg",
+          "filePath": "../public/plasmic/apple/images/heroMacbookAir15MidnightCt0PgwizvreeSmalljpg.jpg"
+        },
+        {
+          "id": "lkYjnvmh-Jvf",
+          "name": "hero_iphone14_yellow__eun20sn4imi6_small.jpg",
+          "filePath": "../public/plasmic/apple/images/heroIphone14YellowEun20Sn4Imi6Smalljpg.jpg"
+        },
+        {
+          "id": "Ruw356Ah7Adx",
+          "name": "image",
+          "filePath": "../public/plasmic/apple/images/image.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/apple/PlasmicGlobalContextsProvider.tsx",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "DwXa5yax8-TP",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "suG7BFFiO1vB",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "ll9iYHMgpk8f",
+        "name": "Screen",
+        "projectId": "wtHXqYo4cHDw1QkkqeK42j",
+        "contextFilePath": "plasmic/apple/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.330",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.330/dist/plasmic.schema.json"
+}
